@@ -68,6 +68,7 @@
 			} );
 		}
 	});
+	
 	$( document ).on( "mobileinit", function(){
 		hash = window.location.hash;
 		$.mobile.document.one( "pageshow", function(){

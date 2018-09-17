@@ -13,12 +13,6 @@
 	<script src="js/index.js"></script>
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-	
 </head>
 <body>
 
@@ -27,6 +21,7 @@
 	<div data-role="header" role="banner" class="ui-header ui-bar-inherit">
 		<h1 class="ui-title" role="heading" aria-level="1">Multi-page</h1>
 	</div><!-- /header -->
+
 
 	<div role="main" class="ui-content">
 		<h2>One</h2>
@@ -38,9 +33,14 @@
 		<p>You link to internal pages by referring to the <code>id</code> of the page you want to show. For example, to <a href="#two" class="ui-link">link</a> to the page with an <code>id</code> of "two", my link would have a <code>href="#two"</code> in the code.</p>
 
 		<h3>Show internal pages:</h3>
-		<p><a href="#two" class="ui-btn ui-shadow ui-corner-all">Show page "two"</a></p>
+
+
+		<p><a href="#two" class="ui-btn ui-shadow ui-corner-all" data-transition="slide">Show page "two"</a></p>
 		<p><a href="#popup" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop">Show page "popup" (as a dialog)</a></p>
+
+
 	</div><!-- /content -->
+
 
 	<div data-role="footer" data-theme="a" role="contentinfo" class="ui-footer ui-bar-a">
 		<h4 class="ui-title" role="heading" aria-level="1">Page Footer</h4>
